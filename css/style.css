@@ -171,6 +171,33 @@ input.submit {
   border: 2px solid #870529;
 }
 
+/* Formatando imagens */
+
+img.imagem-principal {
+  width: 98%;
+  border: 3px solid #dfdfdf;
+}
+
+/* Formatando cabeçalhos */
+
+h3 {
+  text-transform: uppercase;
+  display: inline;
+  font-size: 0.8em;
+  padding: 3px;
+}
+
+.destaque h3 {
+  color: #fff;
+  background: #b10333;
+}
+
+/* esse trecho estilizaria o título da entrevista, mas optei por manter o padrão de cores da classe "destaque", localizada acima.
+ 
+ .entrevista h3 {
+  background: #de003e;
+} */
+
 /* Rodapé */
 
 #container-rodape {
