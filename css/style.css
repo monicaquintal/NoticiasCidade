@@ -77,30 +77,38 @@ body.fotos #navegacao a#fotos {
   cursor: text;
 }
 
+/* Configura layout de três colunas */
+
 #conteudo {
   margin-top: 60px;
   background: #f5f5f5;
-}
-
-#primario {
-  width: 270px;
-  float: left;
-  margin: 0 0 20px 195px;
-  background: blue;
-}
-
-#secundario {
-  width: 270px;
-  float: left;
-  margin: 0 0 20px 15px;
-  background: pink;
 }
 
 #lateral {
   width: 180px;
   float: left;
   margin:0 0 20px -750px;
-  background: purple;
+}
+
+#primario { /* para layout com 03 colunas */
+  width: 270px;
+  float: left;
+  margin: 0 0 20px 195px;
+}
+
+#duas-colunas #primario { /* para layout com 02 colunas */
+  width: 555px;
+}
+
+#uma-coluna #primario { /* para layout com 01 coluna */
+  width: 750px;
+  margin: 0 0 20px 0;
+}
+
+#secundario {
+  width: 270px;
+  float: left;
+  margin: 0 0 20px 15px;
 }
 
 /* Rodapé */
