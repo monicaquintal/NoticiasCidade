@@ -11,4 +11,5 @@ Link para visualização: https://monicaquintal.github.io/NoticiasCidade/
 - Aula 05: Barra lateral;
 - Aula 06: Área de conteúdos;
 - Aula 07: Área de notícias e das demais páginas;
+- Off: Complementando as demais páginas e detalhes finais.
 
