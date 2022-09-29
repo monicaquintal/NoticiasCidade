@@ -9,3 +9,23 @@ body {
   font-family: "Trebuchet MS", Helvetica, sans-serif;
   background: #fff url(../imagens/fundo.png) repeat-x;
 }
+
+#container {
+  width: 700px;
+  margin: 0 auto;
+}
+
+#topo {
+  height: 150px;
+  background: url(../imagens/detalhe-topo.png) no-repeat right;
+  padding-top: 25px;
+  border: 1px solid red;
+}
+
+.logo {
+  width: 152px;
+  height: 66px;
+  background: url(../imagens/logo.png) no-repeat center;
+  text-indent: -3000px; /* Por questõs de acessibilidade, o professor "oculta" o conteúdo escrito no h1, além de permitir que seja lido o título, mesmo que o navegador não carregue o css */
+}
+
